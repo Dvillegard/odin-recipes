@@ -1,0 +1,36 @@
+* {
+    background-color: beige;
+    /* border: 2px solid green;
+  display: block; 
+    display: inline;
+    display: inline-block;
+    display: flex;
+    display: inline-flex;
+    display: grid;
+    display: inline-grid;    
+    display: flow-root;
+    display: contents;*/
+    box-sizing: border-box;
+}
+
+.encabezado {
+    text-align: center;
+    text-decoration: double;
+    color: brown;
+}
+
+#ImgPapas {
+    text-align: center;
+}
+
+h4,
+h6 {
+    font-style: oblique;
+    text-align: center;
+    color: brown;
+    font-size: larger;
+}
+
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
