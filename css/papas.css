@@ -1,0 +1,34 @@
+* {
+    background-color: darkcyan;
+    box-sizing: border-box;
+}
+
+.fondo {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.encabezado {
+    text-align: center;
+    text-decoration: double;
+    color: orange;
+}
+
+#Img {
+    text-align: center;
+}
+
+h4,
+h6 {
+    font-style: oblique;
+    text-align: center;
+    color: orange;
+    font-size: larger;
+}
+
+p,
+ul,
+ol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}

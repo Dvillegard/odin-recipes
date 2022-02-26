@@ -1,5 +1,5 @@
 * {
-    background-color: beige;
+    background-color: #548CA8;
     /* border: 2px solid green;
   display: block; 
     display: inline;
@@ -9,28 +9,144 @@
     display: grid;
     display: inline-grid;    
     display: flow-root;
-    display: contents;*/
-    box-sizing: border-box;
+    display: contents;
+    box-sizing: border-box;*/
 }
+
+.flex-container div {
+    background-color: #476072;
+    border: 4px solid #334257;
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #EEEEEE;
+    /* flex: 1; */
+}
+
+
+/* .fondo {
+    max-width: 600px;
+    margin: 0 auto;
+} */
+
+
+/* .one,
+.two,
+.three,
+.card {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+} */
+
+
+/* .one {
+    background-color: #548CA8;
+    /*border: 3px solid white;
+     CHANGE ME */
+
+
+/* padding: 40px;
+    margin: 20px; 
+} */
+
+
+/* .two {
+    background-color: #476072;
+    /*border: 3px solid orange;
+     CHANGE ME */
+
+
+/* margin: 20px;
+    padding: 40px; 
+} */
+
+
+/* .three {
+    background-color: #334257;
+    /*border: 3px solid white;
+    width: 561px;
+     CHANGE ME */
+
+
+/* margin: 20px;
+    padding: 40px; 
+} */
+
+
+/* .card {
+    background: grey;
+    /*border: 3px solid white;
+    width: 561px;
+     CHANGE ME */
+
+
+/* margin: 20px;
+    padding: 40px; 
+} */
+
+
+/* para las paginas html adicionales ***************************
+   */
 
 .encabezado {
     text-align: center;
     text-decoration: double;
-    color: brown;
+    color: plum;
 }
 
-#ImgPapas {
+#Img {
     text-align: center;
+    padding: 30px;
 }
 
 h4,
 h6 {
     font-style: oblique;
     text-align: center;
-    color: brown;
+    color: orange;
     font-size: larger;
 }
 
-ul {
+p,
+ul,
+ol {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+/* pagina Card **************************/
+
+.backgroundCard {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.card {
+    padding: 8px;
+}
+
+title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.content {
+    background: #e3f4ff;
+}
+
+.button-container {
+    text-align: center;
+    padding: 8px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 24px;
 }
